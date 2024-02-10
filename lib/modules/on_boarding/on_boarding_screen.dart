@@ -54,7 +54,7 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
             Navigator.pushAndRemoveUntil(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => const ShopLoginScreen(),
+                            builder: (context) =>  ShopLoginScreen(),
                           ),
                           (route) => false);
           },child: const Text('SKIP')),
@@ -108,7 +108,7 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
                       Navigator.pushAndRemoveUntil(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => const ShopLoginScreen(),
+                            builder: (context) => ShopLoginScreen(),
                           ),
                           (route) => false);
                     } else {

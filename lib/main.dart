@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'modules/on_boarding/on_boarding_screen.dart';
+import 'modules/shop_login/login_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepOrange),
         useMaterial3: true,
       ),
-      home: const OnBoardingScreen(),
+      home:  ShopLoginScreen(),
     );
   }
 }
